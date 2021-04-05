@@ -1,0 +1,113 @@
+[
+  {
+    "导航鸭 ♪（＾∀＾●）ﾉ": [
+      {
+        "name": "Bilibili",
+        "href": "https://www.bilibili.com/",
+        "desc": "哔哩哔哩弹幕视频网",
+        "logo": "https://tva1.sinaimg.cn/crop.0.0.1024.1024.180/68318509jw8f3sh9uz4ukj20sg0sggnf.jpg"
+      },
+      {
+        "name": "乌龟量化",
+        "href": "https://androidinvest.com/",
+        "desc": "我的亏钱小助手",
+        "logo": "https://tvax2.sinaimg.cn/crop.53.63.138.138.1024/007G6Heply8g1e9f1ejd2j306x06xq2w.jpg?KID=imgbed,tva&Expires=1615316650&ssig=rim%2FUbDdSN"
+      },
+      {
+        "name": "腾讯云",
+        "href": "https://cloud.tencent.com",
+        "desc": "最便宜的云服务器",
+        "logo": "https://tvax3.sinaimg.cn/crop.0.0.512.512.180/005EbuQTly8gdkadd7mvij30e80e8jrk.jpg"
+      },
+      {
+        "name": "996.ICU",
+        "href": "https://996.icu/",
+        "desc": "Developers' lives matter",
+        "logo": "https://tvax2.sinaimg.cn/crop.0.0.1002.1002.180/007Hwdvoly8g1kl89kevfj30ru0ruwfr.jpg"
+      },
+      {
+        "name": "华尔街见闻",
+        "href": "https://wallstreetcn.com",
+        "desc": "一家比较敢写的金融媒体网站",
+        "logo": "http://image.pekst.com/huaerjie.jpg"
+      }
+
+    ],
+    "我的小站！ ヽ(•̀ω•́ )ゝ": [
+      {
+        "name": "Blog",
+        "href": "https://www.cnblogs.com/wmlpuzzle",
+        "desc": "什么都没写的博客",
+        "logo": "https://q1.qlogo.cn/g?b=qq&nk=936915847&s=100"
+      },
+      {
+        "name": "Document",
+        "href": "https://doc.pekst.com",
+        "desc": "空空的文档",
+        "logo": "http://image.pekst.com/mydoc.png"
+      },
+      {
+        "name": "Github",
+        "href": "https://github.com/wmlpuzzle",
+        "desc": "从不提交的Github",
+        "logo": "http://image.pekst.com/github.jpg"
+      },
+      {
+        "name": "Weibo",
+        "href": "https://weibo.com/5165393859/",
+        "desc": "LSP日常看美女",
+        "logo": "https://tvax1.sinaimg.cn/crop.0.0.256.256.180/006xNnx4ly8fducla2hz7j30740740st.jpg"
+      }
+    ],
+    "我的追番 ٩(๑ᵒ̴̶̷͈᷄ᗨᵒ̴̶̷͈᷅)": [
+      {
+        "name": "Re：从零开始的异世界生活 第二季",
+        "href": "https://www.bilibili.com/bangumi/play/ss36429",
+        "desc": "我一定会拯救你。在打倒了魔女教大罪司教「怠惰」担当——培提其乌斯·罗曼尼康帝之后，菜月昴和爱蜜莉雅又得以重新开始。克服了艰难的诀别，两人终于和解，然而这只是新一轮风波的序幕。超乎想象的绝境危机，接踵而至的残酷现实。少年将再次直面残酷的命运",
+        "logo": "https://i0.hdslb.com/bfs/bangumi/7c1f3ca60da441ffbc2425409ee2a5c379264568.jpg@240w_320h.jpg"
+      },
+      {
+        "name": "堀与宫村",
+        "href": "https://www.bilibili.com/bangumi/play/ss36198",
+        "desc": "不论是谁，都会有不想被人知道的一面。在学校中漂亮大方、成绩优秀的人气女生堀，私下却打扮土气、忙于家务和照顾弟弟。在学校中是阴暗宅男形象的宫村，生活中却是打扮时尚、带耳钉的帅气男生。因为一次特别的相遇，两人开始有了交集。互相拥有对方秘密的两人，感情也在不断发酵。恋爱、友情，充满青春气息的超微碳酸系校园生活就此开始！",
+        "logo": "http://i0.hdslb.com/bfs/bangumi/image/039c4e0b14e27c7a9e5cce2f20a6efd3c8909401.png@110w_144h_100Q_1c.webp"
+      },
+      {
+        "name": "弱势角色友崎君",
+        "href": "https://www.bilibili.com/bangumi/play/ss36165",
+        "desc": "友崎文也在日本是首屈一指的游戏玩家，但现实中却是个孤僻的高中生。断言“人生就是垃圾游戏”的他，遇到了完美的学园女主角·日南葵。「你要认真地面对『人生』这一游戏！」人生究竟是垃圾游戏还是神作？在日南的指导下，弱势角色高中生的人生攻略就此开幕！",
+        "logo": "http://i0.hdslb.com/bfs/bangumi/image/2850e7ec13e856a65832f772151a6087fb94e868.png@110w_144h_100Q_1c.webp"
+      },
+      {
+        "name": "一个人的〇〇小日子",
+        "href": "https://www.bilibili.com/bangumi/play/ss26818",
+        "desc": "极度怕生的少女一里波知，在小学时就只有一位朋友，就是这仅有的一位朋友，和波知定下了约定「波知要在中学毕业前和全班同学成为朋友」如果做不到的话就和波知绝交？！但是，一紧张就迈不开步子，无法面对他人视线的波知，做不到主动和人谈话。在之前，甚至连交朋友的方法都不知道，波知的交友作战总是伴随着小小的意外和失败，她真的能够成功交到朋友吗。",
+        "logo": "http://i0.hdslb.com/bfs/bangumi/a3b2db2edeeac4fb51446724458cf93fe46d2797.jpg@110w_144h_100Q_1c.webp"
+      },
+      {
+        "name": "埃罗芒阿老师",
+        "href": "https://www.bilibili.com/bangumi/media/md102392",
+        "desc": "高中生兼小说作家的“和泉正宗”（笔名：和泉征宗）有个家里蹲的妹妹“和泉纱雾”。",
+        "logo": "https://i0.hdslb.com/bfs/bangumi/a223b1376633625be1cd214c34d8bf34a1e03770.jpg@240w_320h.jpg"
+      },
+      {
+        "name": "小林家的龙女仆",
+        "href": "https://www.bilibili.com/bangumi/media/md5800",
+        "desc": "在单身的辛苦OL小林身边突然出现的女仆装束的美少女托尔。",
+        "logo": "https://i0.hdslb.com/bfs/bangumi/320a6c9893a874e7db755ecb7316a0d0abccec49.jpg@240w_320h.jpg"
+      },
+      {
+        "name": "干物妹！小埋",
+        "href": "https://www.bilibili.com/bangumi/media/md2580",
+        "desc": "我的妹妹小埋16岁，完美的妹妹，完美的高中生，但在家里却是个超懒的干物妹。",
+        "logo": "https://i0.hdslb.com/bfs/bangumi/207b3c90f16629eb54f060d54d5efb7d29bb9563.jpg@240w_320h.jpg"
+      },
+      {
+        "name": "某科学的超电磁炮",
+        "href": "https://www.bilibili.com/bangumi/media/md425",
+        "desc": "故事发生在面积占据东京都的三分之一，居住着230万名人口且其中八成人口是学生的巨大都市“学园都市”。",
+        "logo": "https://i0.hdslb.com/bfs/bangumi/1ba189ac8338939b7e07f3bae072a32efe6d8c1a.jpg@240w_320h.jpg"
+      }
+    ]
+  }
+]
