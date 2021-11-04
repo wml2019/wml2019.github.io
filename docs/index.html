@@ -12,8 +12,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="description" content="万明磊的个人主页,万明磊的个人学习分享,万明磊的博客杂谈,万明磊的友情链接">
   <meta name="keywords" content="万明磊,个人主页,文章,生活,pekst.com">
-  <link rel="icon" href="img/favicon.ico">
-  <link rel="apple-touch-icon" href="img/favicon.ico"/>
+  <link rel="icon" href="https://cdn.jsdelivr.net/gh/wml2019/wml2019.github.io@1.0/docs/img/favicon.ico">
+  <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/wml2019/wml2019.github.io@1.0/docs/img/favicon.ico"/>
   <title>万明磊的个人主页</title>
   <style>
     * { margin: 0; padding: 0; font-family: Arial, sans-serif; }
@@ -30,7 +30,7 @@
 		left: 3px;
 		color: white;
 	}
-    .logo::after { content: ""; display: block; opacity: 0; transition: opacity .5s; position: relative; width: calc(61px * 1.5); height: calc(49px * 1.5); top: -115px; left: -4px; background-image: url('img/22.png'); background-size: cover; }
+    .logo::after { content: ""; display: block; opacity: 0; transition: opacity .5s; position: relative; width: calc(61px * 1.5); height: calc(49px * 1.5); top: -115px; left: -4px; background-image: url('https://cdn.jsdelivr.net/gh/wml2019/wml2019.github.io@1.0/docs/img/22.png'); background-size: cover; }
     .logo:hover::after { opacity: 1; }
     .desc { margin: 15px 0; color: black; font-size: 16px; line-height:20px; }
     .nav { text-align: center; font-size: 14px; text-align: left; }
@@ -70,7 +70,7 @@
     .qrCode p { display: block; width: 360px; margin: 20px auto; font-size: 20px; color: white; text-align: center; }
     .qrCode span { font-size: 12px; line-height: 20px; color: whitesmoke; text-align: center; }
 
-    #maomao {position: fixed; bottom: 40px; right: -5px; width: 57px; height: 70px; background-image: url(img/mao.svg); background-position: center; background-size: cover; background-repeat: no-repeat; transition: background .3s;}
+    #maomao {position: fixed; bottom: 40px; right: -5px; width: 57px; height: 70px; background-image: url(https://cdn.jsdelivr.net/gh/wml2019/wml2019.github.io@1.0/docs/img/mao.svg); background-position: center; background-size: cover; background-repeat: no-repeat; transition: background .3s;}
     #maomao:hover {background-position: 60px 50%;}
 
     @media screen and (max-width: 1199px) {
@@ -116,16 +116,15 @@
   </div>
   <div id="qrCode" class="qrCode" onclick="hideQr()">
     <section id="qrImg">
-      <img src="img/qrcode.png"/>
+
     </section>
     <p id="qrDesc">请扫码</p>
   </div>
   <div style="display: none;">
-    <audio id="miao" src="ogg/miao_cocoa.ogg" preload="auto">Your browser does not support the audio element.</audio>
+    <audio id="miao" src="https://cdn.jsdelivr.net/gh/wml2019/wml2019.github.io@1.0/docs/ogg/miao_cocoa.ogg" preload="auto">Your browser does not support the audio element.</audio>
   </div>
   <div id="maomao" onMouseOut="duoMaomao()"></div>
   <script crossorigin="anonymous" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" src="https://lib.baomitu.com/jquery/3.0.0/jquery.min.js"></script>
-<script src="js/qrcode.js"></script>
 <script>
   var plaaaay = function(id) {
     $('#' + id)[0].play();
@@ -218,7 +217,7 @@
     maomao.css('bottom', randomNum(5, 80) + 'vh');
   }
   $(function(){
-  	getLinks('js/links.json');
+  	getLinks('https://cdn.jsdelivr.net/gh/wml2019/wml2019.github.io@1.1/docs/js/links.json');
   	//getLinks('./links_demo.json');
     if(location.hash == '#link') {
       $('#link').removeClass('l-hidden');
