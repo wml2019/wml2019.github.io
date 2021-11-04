@@ -62,7 +62,7 @@
         "name": "Jenkins",
         "href": "http://token.pekst.com:9999/",
         "desc": "服务自助",
-        "logo": "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/wml2019/wml2019.github.io@1.1/docs/img//jenkins-icon.svg"
       },
       {
         "name": "Docker管理",
