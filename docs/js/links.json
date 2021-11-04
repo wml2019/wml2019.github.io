@@ -16,7 +16,7 @@
       {
         "name": "腾讯云",
         "href": "https://cloud.tencent.com",
-        "desc": "最便宜的云服务器",
+        "desc": "最坑爹的云服务器",
         "logo": "https://tvax3.sinaimg.cn/crop.0.0.512.512.180/005EbuQTly8gdkadd7mvij30e80e8jrk.jpg"
       },
       {
@@ -26,14 +26,20 @@
         "logo": "https://tvax2.sinaimg.cn/crop.0.0.1002.1002.180/007Hwdvoly8g1kl89kevfj30ru0ruwfr.jpg"
       },
       {
-        "name": "华尔街见闻",
-        "href": "https://wallstreetcn.com",
-        "desc": "一家比较敢写的金融媒体网站",
-        "logo": "http://image.pekst.com/huaerjie.jpg"
+        "name": "Weibo",
+        "href": "https://weibo.com/5165393859/",
+        "desc": "LSP日常看美女",
+        "logo": "https://tvax1.sinaimg.cn/crop.0.0.256.256.180/006xNnx4ly8fducla2hz7j30740740st.jpg"
       }
 
     ],
-    "我的小站 ヽ(•̀ω•́ )ゝ": [
+    "我的日常 ヽ(•̀ω•́ )ゝ": [
+      {
+        "name": "Document",
+        "href": "http://doc.pekst.com",
+        "desc": "空空的文档",
+        "logo": "https://q1.qlogo.cn/g?b=qq&nk=78051420&s=100"
+      },
       {
         "name": "Blog",
         "href": "https://www.cnblogs.com/wmlpuzzle",
@@ -41,10 +47,10 @@
         "logo": "https://q1.qlogo.cn/g?b=qq&nk=936915847&s=100"
       },
       {
-        "name": "Document",
-        "href": "http://doc.pekst.com",
-        "desc": "空空的文档",
-        "logo": "http://image.pekst.com/mydoc.png"
+        "name": "Csdn",
+        "href": "https://blog.csdn.net/qq_26365851",
+        "desc": "什么都没写的博客",
+        "logo": "https://q1.qlogo.cn/g?b=qq&nk=936915847&s=100"
       },
       {
         "name": "Github",
@@ -53,10 +59,46 @@
         "logo": "http://image.pekst.com/github.jpg"
       },
       {
-        "name": "Weibo",
-        "href": "https://weibo.com/5165393859/",
-        "desc": "LSP日常看美女",
-        "logo": "https://tvax1.sinaimg.cn/crop.0.0.256.256.180/006xNnx4ly8fducla2hz7j30740740st.jpg"
+        "name": "Jenkins",
+        "href": "http://token.pekst.com:9999/",
+        "desc": "服务自助",
+        "logo": "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
+      },
+      {
+        "name": "Docker管理",
+        "href": "http://token.pekst.com:9000/",
+        "desc": "docker服务自助",
+        "logo": "http://token.pekst.com:9000/eb45a68ab4c8d154c69396d27d5721be.png"
+      },
+      {
+        "name": "Docker仓库",
+        "href": "http://registry.cn-hangzhou.aliyuncs.com/msmdocker/sp",
+        "desc": "docker镜像仓库",
+        "logo": "http://token.pekst.com:9000/eb45a68ab4c8d154c69396d27d5721be.png"
+      },
+      {
+        "name": "ToDos",
+        "href": "http://token.pekst.com:9002/sws/todo?uuid=921b92",
+        "desc": "我的备忘录",
+        "logo": "http://token.pekst.com:9000/eb45a68ab4c8d154c69396d27d5721be.png"
+      },
+      {
+        "name": "ToInvest",
+        "href": "http://token.pekst.com:9002/sws/toinvest?uuid=b3de98",
+        "desc": "我的基金",
+        "logo": "http://token.pekst.com:9000/eb45a68ab4c8d154c69396d27d5721be.png"
+      },
+      {
+        "name": "ToGamb",
+        "href": "http://token.pekst.com:9002/sws/togamb?uuid=1ddbbf",
+        "desc": "我的股票",
+        "logo": "http://token.pekst.com:9000/eb45a68ab4c8d154c69396d27d5721be.png"
+      },
+      {
+        "name": "ToBate",
+        "href": "http://token.pekst.com:9002",
+        "desc": "我的测试平台",
+        "logo": "http://token.pekst.com:9000/eb45a68ab4c8d154c69396d27d5721be.png"
       }
     ],
     "我的追番 ٩(๑ᵒ̴̶̷͈᷄ᗨᵒ̴̶̷͈᷅)": [
