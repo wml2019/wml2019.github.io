@@ -60,13 +60,13 @@
       },
       {
         "name": "Jenkins",
-        "href": "http://token.pekst.com:9999/",
+        "href": "http://175.24.191.19:9999/",
         "desc": "服务自助",
         "logo": "https://cdn.jsdelivr.net/gh/wml2019/wml2019.github.io@1.1/docs/img//jenkins-icon.svg"
       },
       {
         "name": "Docker管理",
-        "href": "http://token.pekst.com:9000/",
+        "href": "http://shasen.xyz:9000/",
         "desc": "docker服务自助",
         "logo": "https://cdn.jsdelivr.net/gh/wml2019/wml2019.github.io@1.0/docs/img/91377de901ae29e56ef3449499b7ed5c.jpeg"
       },
@@ -78,19 +78,19 @@
       },
       {
         "name": "ToDos",
-        "href": "http://token.pekst.com:9002/sws/todo?uuid=921b92",
+        "href": "http://vue.shasen.xyz/sws/todo?uuid=94b154",
         "desc": "我的备忘录",
         "logo": "https://cdn.jsdelivr.net/gh/wml2019/wml2019.github.io@1.0/docs/img/0206c173bcc0f35fcb9c21070b38dce1.jpeg"
       },
       {
         "name": "ToInvest",
-        "href": "http://token.pekst.com:9002/sws/toinvest?uuid=b3de98",
+        "href": "http://vue.shasen.xyz/sws/toinvest?uuid=4fbb76",
         "desc": "我的基金",
         "logo": "https://cdn.jsdelivr.net/gh/wml2019/wml2019.github.io@1.0/docs/img/6304b89873f6eb4885fb772c88263675.jpeg"
       },
       {
         "name": "ToGamb",
-        "href": "http://token.pekst.com:9002/sws/togamb?uuid=1ddbbf",
+        "href": "http://vue.shasen.xyz/sws/togamb?uuid=b89047",
         "desc": "我的股票",
         "logo": "https://cdn.jsdelivr.net/gh/wml2019/wml2019.github.io@1.0/docs/img/wugui.png"
       },
