@@ -20,9 +20,9 @@
     html { height: 100vh; }
     body { font-size: 1em; }
     .main { margin-top: 35vh; margin-left: 300px; transition: margin .5s; }
-    .logo { width: 150px; height: 50px; background-color: black; border-radius: 3px; }
+    .logo { width: 250px; height: 50px; background-color: black; border-radius: 3px; }
     .logo::before {
-		content: "PUZZLE";
+		content: "JOJO的奇妙生活";
 		position: relative;
 		font-size: 25px;
 		line-height: 50px;
@@ -98,12 +98,12 @@
   <div class="main">
     <div class="logo" onmouseover="plaaaay('miao')"></div>
     <div class="desc">
-      <p>As the tree, so the fruit.</p>
+      <p>JOJO's wonderful life.</p>
     </div>
     <ul class="nav">
-      <li><a href="javascript:swLinks(1);">LET'S GO!</a></li>
-      <section style="margin: 10px 0;">
-      	<li><a style="text-decoration: none;" target="_blank" href="https://beian.miit.gov.cn">鄂ICP备20009958号-1</a></li>
+      <li><a href="javascript:swLinks(1);">点击一刀999!</a></li>
+      <section style="margin: 20px 0;">
+      	<li><a style="text-decoration: none;" target="_blank" href="https://beian.miit.gov.cn">ICP: 鄂ICP备2021019331号-1</a></li>
       </section>
     </ul>
   </div>
@@ -113,12 +113,6 @@
       <span class="lc-1"></span>
       <span class="lc-2"></span>
     </div>
-  </div>
-  <div id="qrCode" class="qrCode" onclick="hideQr()">
-    <section id="qrImg">
-
-    </section>
-    <p id="qrDesc">请扫码</p>
   </div>
   <div style="display: none;">
     <audio id="miao" src="https://cdn.jsdelivr.net/gh/wml2019/wml2019.github.io@1.0/docs/ogg/miao_cocoa.ogg" preload="auto">Your browser does not support the audio element.</audio>
@@ -192,25 +186,6 @@
         return 0;
         break;
     }
-  }
-  var showQr = function(url, txt, logo) {
-      var qrnode = new AraleQRCode({
-        render: 'canvas',
-        correctLevel: 2,
-        text: url,
-        size: 260,
-        background: '#fff',
-        foreground: '#000',
-        pdground: '#f33',
-        image : logo,
-        imageSize : 32
-      });
-      $('#qrImg').html(qrnode);
-      $('#qrCode').css('display', 'block');
-      $('#qrDesc').html(txt);
-  }
-  var hideQr = function(url) {
-      $('#qrCode').css('display', 'none');
   }
   var duoMaomao = function() {
     var maomao = $('#maomao');
