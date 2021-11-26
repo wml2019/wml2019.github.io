@@ -121,7 +121,6 @@
   <script crossorigin="anonymous" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" src="https://lib.baomitu.com/jquery/3.0.0/jquery.min.js"></script>
 <script>
   var plaaaay = function(id) {
-    $('#' + id)[0].play();
   }
   var exWords = function(id, str) {
     $(id).html(str);
@@ -130,7 +129,6 @@
     if(st == 1) {
       $('#link').removeClass('l-hidden');
       $('#l-back').removeClass('l-hidden');
-      plaaaay('ruready');
     } else if(st == 0) {
       $('#link').addClass('l-hidden');
       $('#l-back').addClass('l-hidden');
@@ -138,17 +136,23 @@
   }
   var getLinks = function(url) {
     $.getJSON(url, {t: Date.parse(new Date())}, function(result) {
-      $.each(result, function(i, obj) {
+      $.each(JSON.parse(result.data), function(i, obj) {
+	    var i = 0
         $.each(obj, function(n, links) {
+		i ++;
           var l_group = $('<div class="l-group"></div>');
           var l_title = $('<div class="l-title"><h1>' + n + '</h1></div>');
           l_group.append(l_title);
           var l_box = $('<div class="l-box"></div>');
           //links.sort(function(){ return 0.5 - Math.random() }); // random
+		  if(i == 1){
+		   
+		  }
           $.each(links, function(j, link) {
             var lil_url = link.logo != null ? link.logo : './src/loading.svg';
             var lid_text = link.desc != null ? link.desc : '暂无描述 ┑(￣Д ￣)┍';
-            var l_item = $('<div class="l-item"></div>');
+			var l_item;
+			l_item = $('<div class="l-item"></div>');
             l_item.attr("title", '✦ ' + link.name + '\n✧ ' + lid_text + '\n✧ ' + link.href);
             l_item.bind('click', function(){
               window.open(link.href + (link.noUtm === undefined ? '' : ''));
@@ -192,8 +196,8 @@
     maomao.css('bottom', randomNum(5, 80) + 'vh');
   }
   $(function(){
-  	//getLinks('https://cdn.jsdelivr.net/gh/wml2019/wml2019.github.io@1.3/docs/js/links.json?t=1637310841000');
-	  getLinks('http://vue.shasen.xyz/static/link.json');
+  	//getLinks('http://10.20.1.198:80/noauth/getLink');
+	  getLinks('http://shasen.xyz:8001/noauth/getLink');
   	//getLinks('./links_demo.json');
     if(location.hash == '#link') {
       $('#link').removeClass('l-hidden');
